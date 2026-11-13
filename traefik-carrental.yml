@@ -1,0 +1,29 @@
+http:
+  routers:
+    damshly-com-https:
+      rule: Host(`damshly.com`) || Host(`www.damshly.com`)
+      entryPoints:
+        - websecure
+      service: carrental
+      tls:
+        certResolver: letsencrypt
+
+    damshly-com-http:
+      rule: Host(`damshly.com`) || Host(`www.damshly.com`)
+      entryPoints:
+        - web
+      middlewares:
+        - damshly-https-redirect
+      service: noop@internal
+
+  middlewares:
+    damshly-https-redirect:
+      redirectScheme:
+        scheme: https
+        permanent: true
+
+  services:
+    carrental:
+      loadBalancer:
+        servers:
+          - url: http://127.0.0.1:8091

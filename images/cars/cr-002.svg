@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="230" viewBox="70 125 500 230" role="img">
+  <title>CR-002 Kia Sportage 2022</title>
+  <defs>
+    <linearGradient id="paint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#86a39b"/>
+      <stop offset="0.42" stop-color="#2f6153"/>
+      <stop offset="1" stop-color="#275044"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0.1" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#9db6c3"/>
+      <stop offset="0.45" stop-color="#243e48"/>
+      <stop offset="1" stop-color="#1c2c35"/>
+    </linearGradient>
+    <mask id="arches">
+      <rect x="0" y="0" width="640" height="360" fill="#ffffff"/>
+      <circle cx="182" cy="286" r="51" fill="#000000"/><circle cx="462" cy="286" r="51" fill="#000000"/>
+    </mask>
+  </defs>
+  <ellipse cx="324" cy="336" rx="238" ry="11" fill="#0f2b3a" opacity="0.13"/>
+  <g mask="url(#arches)">
+    <path d="M 96 300 L 96 246 Q 96 230 114 226 L 148 219 Q 168 216 178 200 L 206 166 Q 220 152 246 151 L 384 151 Q 412 152 430 168 L 458 204 Q 470 220 494 224 L 532 230 Q 552 234 552 250 L 552 300 Z" fill="url(#paint)" stroke="#0f2b3a" stroke-opacity="0.10" stroke-width="1.4"/>
+  </g>
+  <path d="M 100 292 L 548 292" stroke="#0f172a" stroke-opacity="0.20" stroke-width="2"/>
+  <path d="M 184 200 L 212 168 Q 224 155 246 154 L 384 154 Q 408 155 422 170 L 448 200 Z" fill="url(#glass)"/>
+  <rect x="318" y="153" width="12" height="47" fill="#2f6153"/>
+  <path d="M 246 147 L 382 147" stroke="#8e9ba3" stroke-width="4" stroke-linecap="round"/><path d="M 254 143 L 254 137 M 374 143 L 374 137" stroke="#8e9ba3" stroke-width="3" stroke-linecap="round"/><path d="M 318 200 L 318 300" stroke="#0d1b23" stroke-opacity="0.16" stroke-width="2"/><path d="M 444 202 L 444 300" stroke="#0d1b23" stroke-opacity="0.12" stroke-width="2"/><rect x="334" y="216" width="24" height="5.5" rx="2.75" fill="#3b4a53"/><rect x="456" y="218" width="24" height="5.5" rx="2.75" fill="#3b4a53"/>
+  <circle cx="182" cy="286" r="49" fill="none" stroke="#0b1a22" stroke-opacity="0.32" stroke-width="3"/>
+  <circle cx="462" cy="286" r="49" fill="none" stroke="#0b1a22" stroke-opacity="0.32" stroke-width="3"/>
+  <g><circle cx="182" cy="286" r="44" fill="#1b2830"/><circle cx="182" cy="286" r="36" fill="#c9d2d8"/><circle cx="182" cy="286" r="32" fill="#aeb9c0"/><path d="M 189.5 288.7 L 213.0 286.0" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><path d="M 181.7 294.0 L 191.6 315.5" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><path d="M 174.3 288.2 L 156.9 304.2" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><path d="M 177.5 279.4 L 156.9 267.8" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><path d="M 186.9 279.7 L 191.6 256.5" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><circle cx="182" cy="286" r="9" fill="#8d9aa3"/><circle cx="182" cy="286" r="4" fill="#6f7d86"/></g><g><circle cx="462" cy="286" r="44" fill="#1b2830"/><circle cx="462" cy="286" r="36" fill="#c9d2d8"/><circle cx="462" cy="286" r="32" fill="#aeb9c0"/><path d="M 469.5 288.7 L 493.0 286.0" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><path d="M 461.7 294.0 L 471.6 315.5" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><path d="M 454.3 288.2 L 436.9 304.2" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><path d="M 457.5 279.4 L 436.9 267.8" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><path d="M 466.9 279.7 L 471.6 256.5" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><circle cx="462" cy="286" r="9" fill="#8d9aa3"/><circle cx="462" cy="286" r="4" fill="#6f7d86"/></g>
+  <path d="M 532 234 q 18 2 18 12 l -24 2 z" fill="#fff6d8"/><path d="M 102 236 q -5 7 0 12 l 18 2 l 0 -16 z" fill="#e05a3d"/>
+  <circle cx="326" cy="236" r="3.2" fill="#e9a23b"/>
+</svg>

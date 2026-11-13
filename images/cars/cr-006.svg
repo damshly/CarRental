@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="230" viewBox="70 125 500 230" role="img">
+  <title>CR-006 Toyota Hilux 2022</title>
+  <defs>
+    <linearGradient id="paint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dcc8a9"/>
+      <stop offset="0.42" stop-color="#c2a06a"/>
+      <stop offset="1" stop-color="#9f8357"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0.1" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#9db6c3"/>
+      <stop offset="0.45" stop-color="#36454a"/>
+      <stop offset="1" stop-color="#1c2c35"/>
+    </linearGradient>
+    <mask id="arches">
+      <rect x="0" y="0" width="640" height="360" fill="#ffffff"/>
+      <circle cx="180" cy="292" r="47" fill="#000000"/><circle cx="470" cy="292" r="47" fill="#000000"/>
+    </mask>
+  </defs>
+  <ellipse cx="324" cy="334" rx="238" ry="11" fill="#0f2b3a" opacity="0.13"/>
+  <g mask="url(#arches)">
+    <path d="M 96 304 L 96 256 Q 96 240 114 236 L 134 232 L 134 220 L 298 220 L 298 234 L 328 234 L 350 196 Q 364 174 392 173 L 458 173 Q 486 174 500 194 L 526 234 L 548 240 Q 560 244 560 258 L 560 304 Z" fill="url(#paint)" stroke="#0f2b3a" stroke-opacity="0.10" stroke-width="1.4"/>
+  </g>
+  <path d="M 100 296 L 556 296" stroke="#0f172a" stroke-opacity="0.20" stroke-width="2"/>
+  <path d="M 356 234 L 378 198 Q 390 182 408 181 L 456 181 Q 474 182 484 196 L 500 234 Z" fill="url(#glass)"/>
+  <rect x="428" y="180" width="10" height="54" fill="#c2a06a"/>
+  <path d="M 138 220 L 294 220" stroke="#0d1b23" stroke-opacity="0.20" stroke-width="2"/><path d="M 298 236 L 298 304" stroke="#0d1b23" stroke-opacity="0.14" stroke-width="2"/><path d="M 428 234 L 428 304" stroke="#0d1b23" stroke-opacity="0.12" stroke-width="2"/><rect x="444" y="242" width="22" height="5.5" rx="2.75" fill="#3b4a53"/><path d="M 150 226 L 150 220 M 200 226 L 200 220 M 250 226 L 250 220" stroke="#0d1b23" stroke-opacity="0.14" stroke-width="2"/><path d="M 134 246 L 294 246" stroke="#ffffff" stroke-opacity="0.16" stroke-width="2"/>
+  <circle cx="180" cy="292" r="45" fill="none" stroke="#0b1a22" stroke-opacity="0.32" stroke-width="3"/>
+  <circle cx="470" cy="292" r="45" fill="none" stroke="#0b1a22" stroke-opacity="0.32" stroke-width="3"/>
+  <g><circle cx="180" cy="292" r="40" fill="#1b2830"/><circle cx="180" cy="292" r="32" fill="#c9d2d8"/><circle cx="180" cy="292" r="28" fill="#aeb9c0"/><path d="M 187.5 294.7 L 207.0 292.0" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><path d="M 179.7 300.0 L 188.3 317.7" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><path d="M 172.3 294.2 L 158.2 307.9" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><path d="M 175.5 285.4 L 158.2 276.1" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><path d="M 184.9 285.7 L 188.3 266.3" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><circle cx="180" cy="292" r="9" fill="#8d9aa3"/><circle cx="180" cy="292" r="4" fill="#6f7d86"/></g><g><circle cx="470" cy="292" r="40" fill="#1b2830"/><circle cx="470" cy="292" r="32" fill="#c9d2d8"/><circle cx="470" cy="292" r="28" fill="#aeb9c0"/><path d="M 477.5 294.7 L 497.0 292.0" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><path d="M 469.7 300.0 L 478.3 317.7" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><path d="M 462.3 294.2 L 448.2 307.9" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><path d="M 465.5 285.4 L 448.2 276.1" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><path d="M 474.9 285.7 L 478.3 266.3" stroke="#aeb9c0" stroke-width="9" stroke-linecap="round"/><circle cx="470" cy="292" r="9" fill="#8d9aa3"/><circle cx="470" cy="292" r="4" fill="#6f7d86"/></g>
+  <path d="M 536 244 q 17 2 17 12 l -22 2 z" fill="#fff6d8"/><path d="M 102 246 q -5 7 0 12 l 16 2 l 0 -16 z" fill="#e05a3d"/>
+  <circle cx="326" cy="236" r="3.2" fill="#e9a23b"/>
+</svg>

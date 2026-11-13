@@ -1,0 +1,44 @@
+version: '3.8'
+
+networks:
+  proxy-net:
+    external: true
+
+services:
+  carrental:
+    image: damshly/carrental:latest
+    container_name: carrental
+    restart: always
+    user: '1001:1001'
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - HOST=0.0.0.0
+    ports:
+      - '127.0.0.1:8091:3000'
+    networks:
+      - proxy-net
+    labels:
+      - 'traefik.enable=true'
+      - 'traefik.http.routers.carrental.rule=Host(`damshly.com`) || Host(`www.damshly.com`)'
+      - 'traefik.http.routers.carrental.entrypoints=websecure'
+      - 'traefik.http.routers.carrental.tls.certresolver=letsencrypt'
+      - 'traefik.http.services.carrental.loadbalancer.server.port=3000'
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=16m
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    pids_limit: 100
+    healthcheck:
+      test:
+        - CMD
+        - node
+        - -e
+        - "fetch('http://127.0.0.1:3000/').then(r => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))"
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s

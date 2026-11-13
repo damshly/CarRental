@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img">
+  <title>Al-Nour Car Rental logo</title>
+  <rect width="64" height="64" rx="16" fill="#102635"/>
+  <path d="M 13 47 C 25 47 25 17 51 17" fill="none" stroke="#e9a23b" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 13 47 L 24 47" fill="none" stroke="#f6f4ef" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="45" cy="17" r="5" fill="#e9a23b"/>
+</svg>

@@ -1,0 +1,13 @@
+.git
+.gitignore
+.env
+.env.*
+Dockerfile*
+docker-compose*
+compose*.yml
+compose*.yaml
+traefik-*.yml
+*.tar
+*.tar.gz
+node_modules
+npm-debug.log*
